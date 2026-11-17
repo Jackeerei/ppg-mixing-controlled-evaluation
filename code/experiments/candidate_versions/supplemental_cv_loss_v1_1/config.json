@@ -1,0 +1,920 @@
+{
+  "scope": "POSTHOC_DEVELOPMENT_ROBUSTNESS_NOT_NEW_FINAL_TEST",
+  "protocol": ".\\research\\SUPPLEMENTAL_CV_LOSS_PROTOCOL_20261108.md",
+  "protocol_sha256": "8f04af1826ce0b5192308854e8fdac4397ede01427c7c12653e65fa64af649f0",
+  "folds": [
+    {
+      "fold": 1,
+      "train": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "inner": [
+        11,
+        12
+      ],
+      "outer": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "train_windows": 25574,
+      "inner_windows": 8475,
+      "outer_windows": 17641
+    },
+    {
+      "fold": 2,
+      "train": [
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "inner": [
+        1,
+        2
+      ],
+      "outer": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "train_windows": 27012,
+      "inner_windows": 8702,
+      "outer_windows": 15976
+    },
+    {
+      "fold": 3,
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "inner": [
+        5,
+        6
+      ],
+      "outer": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "train_windows": 26346,
+      "inner_windows": 7271,
+      "outer_windows": 18073
+    }
+  ],
+  "runs": [
+    {
+      "id": "f1_s42_logcosh_C",
+      "fold": 1,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_logcosh_G",
+      "fold": 1,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_logcosh_D",
+      "fold": 1,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_logcosh_D_without_c",
+      "fold": 1,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_MSE_G",
+      "fold": 1,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_MSE_D",
+      "fold": 1,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_MAE_G",
+      "fold": 1,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_MAE_D",
+      "fold": 1,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_Huber5_G",
+      "fold": 1,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s42_Huber5_D",
+      "fold": 1,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_logcosh_C",
+      "fold": 1,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_logcosh_G",
+      "fold": 1,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_logcosh_D",
+      "fold": 1,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_logcosh_D_without_c",
+      "fold": 1,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_MSE_G",
+      "fold": 1,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_MSE_D",
+      "fold": 1,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_MAE_G",
+      "fold": 1,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_MAE_D",
+      "fold": 1,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_Huber5_G",
+      "fold": 1,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s43_Huber5_D",
+      "fold": 1,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_logcosh_C",
+      "fold": 1,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_logcosh_G",
+      "fold": 1,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_logcosh_D",
+      "fold": 1,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_logcosh_D_without_c",
+      "fold": 1,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_MSE_G",
+      "fold": 1,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_MSE_D",
+      "fold": 1,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_MAE_G",
+      "fold": 1,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_MAE_D",
+      "fold": 1,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_Huber5_G",
+      "fold": 1,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 200
+    },
+    {
+      "id": "f1_s44_Huber5_D",
+      "fold": 1,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 200
+    },
+    {
+      "id": "f2_s42_logcosh_C",
+      "fold": 2,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_logcosh_G",
+      "fold": 2,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_logcosh_D",
+      "fold": 2,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_logcosh_D_without_c",
+      "fold": 2,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_MSE_G",
+      "fold": 2,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_MSE_D",
+      "fold": 2,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_MAE_G",
+      "fold": 2,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_MAE_D",
+      "fold": 2,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_Huber5_G",
+      "fold": 2,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s42_Huber5_D",
+      "fold": 2,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_logcosh_C",
+      "fold": 2,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_logcosh_G",
+      "fold": 2,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_logcosh_D",
+      "fold": 2,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_logcosh_D_without_c",
+      "fold": 2,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_MSE_G",
+      "fold": 2,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_MSE_D",
+      "fold": 2,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_MAE_G",
+      "fold": 2,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_MAE_D",
+      "fold": 2,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_Huber5_G",
+      "fold": 2,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s43_Huber5_D",
+      "fold": 2,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_logcosh_C",
+      "fold": 2,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_logcosh_G",
+      "fold": 2,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_logcosh_D",
+      "fold": 2,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_logcosh_D_without_c",
+      "fold": 2,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_MSE_G",
+      "fold": 2,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_MSE_D",
+      "fold": 2,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_MAE_G",
+      "fold": 2,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_MAE_D",
+      "fold": 2,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_Huber5_G",
+      "fold": 2,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 212
+    },
+    {
+      "id": "f2_s44_Huber5_D",
+      "fold": 2,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 212
+    },
+    {
+      "id": "f3_s42_logcosh_C",
+      "fold": 3,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_logcosh_G",
+      "fold": 3,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_logcosh_D",
+      "fold": 3,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_logcosh_D_without_c",
+      "fold": 3,
+      "seed": 42,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_MSE_G",
+      "fold": 3,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_MSE_D",
+      "fold": 3,
+      "seed": 42,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_MAE_G",
+      "fold": 3,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_MAE_D",
+      "fold": 3,
+      "seed": 42,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_Huber5_G",
+      "fold": 3,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s42_Huber5_D",
+      "fold": 3,
+      "seed": 42,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_logcosh_C",
+      "fold": 3,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_logcosh_G",
+      "fold": 3,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_logcosh_D",
+      "fold": 3,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_logcosh_D_without_c",
+      "fold": 3,
+      "seed": 43,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_MSE_G",
+      "fold": 3,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_MSE_D",
+      "fold": 3,
+      "seed": 43,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_MAE_G",
+      "fold": 3,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_MAE_D",
+      "fold": 3,
+      "seed": 43,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_Huber5_G",
+      "fold": 3,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s43_Huber5_D",
+      "fold": 3,
+      "seed": 43,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_logcosh_C",
+      "fold": 3,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "C",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_logcosh_G",
+      "fold": 3,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_logcosh_D",
+      "fold": 3,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_logcosh_D_without_c",
+      "fold": 3,
+      "seed": 44,
+      "objective": "logcosh",
+      "method": "D_without_c",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_MSE_G",
+      "fold": 3,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_MSE_D",
+      "fold": 3,
+      "seed": 44,
+      "objective": "MSE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_MAE_G",
+      "fold": 3,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_MAE_D",
+      "fold": 3,
+      "seed": 44,
+      "objective": "MAE",
+      "method": "D",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_Huber5_G",
+      "fold": 3,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "G",
+      "batches": 206
+    },
+    {
+      "id": "f3_s44_Huber5_D",
+      "fold": 3,
+      "seed": 44,
+      "objective": "Huber5",
+      "method": "D",
+      "batches": 206
+    }
+  ],
+  "training": {
+    "optimizer": {
+      "type": "Adam",
+      "backbone_lr": 0.001,
+      "gate_lr": 0.001,
+      "backbone_weight_decay": 0.0,
+      "gate_weight_decay": 0.0,
+      "amsgrad": true
+    },
+    "batch_size": 128,
+    "early_stop_patience_validation_checks": 20,
+    "max_epochs": 200,
+    "selection_metric": "inner_equal_person_mae",
+    "improvement_rule": "strictly_smaller"
+  },
+  "prepared_sources": [
+    {
+      "path": ".\\experiments\\results\\round2_v14_20261106T113622431703Z\\train.npz",
+      "sha256": "b897395e75518b1b1b7f75bb49398cd13d265e28fde62b42fda72044244d7173"
+    },
+    {
+      "path": ".\\experiments\\results\\round2_v14_20261106T113622431703Z\\val.npz",
+      "sha256": "ec4690d2e9b5f52974d5aaaa6bfc91080762a8670b68d6032259cc4cd7e42cb2"
+    }
+  ],
+  "operations": {
+    "device": "cuda",
+    "deterministic": true,
+    "fp32": true,
+    "AMP": false,
+    "TF32": false,
+    "cpu_threads": 2,
+    "per_arm_hard_seconds": 7200,
+    "whole_stage_hard_seconds": 345600,
+    "prepare_hard_seconds": 1800,
+    "minimum_available_ram_bytes": 2684354560,
+    "minimum_free_disk_bytes": 10737418240,
+    "no_resume_or_automatic_retry": true,
+    "active_time_excludes_offline": true,
+    "resume_same_run_id": true,
+    "checkpoint_every_updates": 100,
+    "checkpoint_every_seconds": 60,
+    "completed_arm_skip_requires_commit_sha": true
+  },
+  "outer_release": "ALL90 trained and BEST_LOCK written before any outer load/prediction",
+  "runtime_estimate": {
+    "basis": [
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed42_D_full\\summary.json",
+        "sha256": "b25719efd7c0c73545b629c6e7da437da93c4f8b406022775a43c342029bf96d",
+        "updates": 24674,
+        "seconds": 1583.5115062000004,
+        "seconds_per_update_including_inner_checks_and_output": 0.06417733266596419,
+        "epochs": 73,
+        "arm_bytes": 1696605
+      },
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed42_D_without_c\\summary.json",
+        "sha256": "c80a648488869d0c2b1a90c19784c702eb6dd041cee116243fa91a9a5a4e4019",
+        "updates": 30758,
+        "seconds": 1961.295563399999,
+        "seconds_per_update_including_inner_checks_and_output": 0.06376538017426357,
+        "epochs": 91,
+        "arm_bytes": 1752166
+      },
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed43_D_full\\summary.json",
+        "sha256": "189c58cf2b98c07e9abf9281c40d3355139554cddba6e8652da3fc1c4c6f0c3f",
+        "updates": 20280,
+        "seconds": 1276.0999742000022,
+        "seconds_per_update_including_inner_checks_and_output": 0.06292406184418156,
+        "epochs": 60,
+        "arm_bytes": 1686975
+      },
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed43_D_without_c\\summary.json",
+        "sha256": "f85cc2a1dc1d0697d4a86da6bc557fa73e93afdc235a59fbf5714c25e5c2e524",
+        "updates": 39884,
+        "seconds": 2512.035181000003,
+        "seconds_per_update_including_inner_checks_and_output": 0.06298353176712473,
+        "epochs": 118,
+        "arm_bytes": 1771924
+      },
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed44_D_full\\summary.json",
+        "sha256": "079a3f01a461c3ae572136243f7818f546273d6f71e4093a45d88bf890937fb9",
+        "updates": 23322,
+        "seconds": 1522.7761518999978,
+        "seconds_per_update_including_inner_checks_and_output": 0.06529354909098696,
+        "epochs": 69,
+        "arm_bytes": 1693553
+      },
+      {
+        "path": ".\\experiments\\results\\c_ablation_cuda_v1_20261107T075150Z\\seed44_D_without_c\\summary.json",
+        "sha256": "6d4cc1bc95a647e9c4f7c5307417ab8328032a49ad5f0e36a19a86ad5d8cbdb2",
+        "updates": 37856,
+        "seconds": 2467.685860499998,
+        "seconds_per_update_including_inner_checks_and_output": 0.06518612268860942,
+        "epochs": 112,
+        "arm_bytes": 1767717
+      }
+    ],
+    "rate_used": 0.06529354909098696,
+    "total_updates_at_all_200_epochs": 3708000,
+    "all_cap_linear_hours": 67.25235556371658,
+    "linear_plus20pct_hours": 80.70282667645989,
+    "inner_to_train_batch_ratio_sensitivity_factor": 1.69,
+    "caveat": "Prior real deterministic CUDA timings, not the short speed probe. New MAE-selected stopping and losses can change epochs, instability, validation ratio and throughput. 20% overhead is a planning allowance, not a measured guarantee.",
+    "prior_mean_epochs": 87.16666666666667,
+    "prior_mean_epochs_scaled_hours": 29.310818299853146,
+    "stage_limit_hours": 96,
+    "per_arm_hard_limit_hours": 2,
+    "all_watchdogs_sum_hours": 180,
+    "budget_fit": "96 active hours authorized before launch; preserve incomplete on budget exhaustion, no objective/seed/epoch cap reduction",
+    "estimated_new_prepared_array_bytes": 798300360,
+    "estimated_arm_artifact_upper_bytes": 506092500.0
+  },
+  "version": "supplemental_cv_loss_v1_1",
+  "previous_v1_freeze_sha256": "64fcba80015e45e38a5961009d48033468929f0bb362b10607c4feb42a4772d9"
+}

@@ -23,6 +23,8 @@ python tools/reanalyse_fixed_predictions.py --root . --output reanalysis_output
 
 These commands were executed on an extracted copy. Integrity passed; recomputed 90-arm participant/seed summaries differed from archived values by at most 3.56e-15 bpm. They reanalyse fixed predictions and do not run model inference. Full raw-data acquisition, retraining and new inference were not verified end to end. Historic freezes bind original files; normalized distribution paths have a separate provenance map. See the archive README before attempting retraining in a new copy.
 
+The numerical implementation and configurations can also be browsed under [code/](code/). The ZIP remains the complete canonical distribution with data bindings and provenance.
+
 ## Participant-level analyses
 
 [Analysis data and explanation](analysis/) include all eight external participants' G/D means and seed ranges, all six principal D-minus-G descriptive intervals, and paired participant/seed inputs. With NumPy 2.4.2 installed:
@@ -37,7 +39,7 @@ The 90 histories report actual early stopping at 27–173 epochs. Curves and sto
 
 ## Supplement
 
-The English supplement is provided under [supplement/](supplement/) after the manuscript availability statements are synchronized with this repository. It contains detailed definitions, participant tables and all stopping diagnostics. The conference's acceptance/publication is not implied.
+The 19-page English supplement is available as [PDF](supplement/supplement_revised_clean.pdf) and [editable Word](supplement/supplement_revised_clean.docx). The manuscript availability statements identify this repository and the fixed code/analysis snapshot b598d26f2b60b0588810d8fdbee488401e40d49e. It contains detailed definitions, participant tables and all stopping diagnostics. The conference's acceptance/publication is not implied.
 
 ## Data and licenses
 

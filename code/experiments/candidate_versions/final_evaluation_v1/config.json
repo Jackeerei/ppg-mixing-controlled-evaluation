@@ -1,0 +1,30 @@
+{
+  "scope": "FINAL_S13_S14_S15_PREPARATION_ONLY",
+  "subjects": [
+    13,
+    14,
+    15
+  ],
+  "draft": ".\\research\\FINAL_EVALUATION_LOCK_DRAFT_20261107.md",
+  "draft_sha256": "03fb6ed3cd9c9a13b41879dc4fd7119d1c1cc8fd0e0152b88f33221313a8bc31",
+  "mapping": "Exact previously reviewed DaLiA BVP[::2], ACC native32Hz,8sec256samples/hop64; activity majority32 samples@4Hz, smallest ID tie; label index=window index; no normalization",
+  "inference_device": "cpu",
+  "dtype": "float32",
+  "batch_size": 128,
+  "model_sets_separate": true,
+  "primary_original": [
+    "D-C",
+    "D-G"
+  ],
+  "aux_original": [
+    "D-A",
+    "D-B"
+  ],
+  "mechanism": "CUDA-trained D_full minus CUDA-trained D_without_c",
+  "aggregation": "within seed subject MAE, equal3subject macro, pooled and activity separately; all9 subject-seed deltas; no seed/window pseudo subjects",
+  "all_activities": true,
+  "training": false,
+  "preparation_may_read_labels": true,
+  "final_predictions_allowed": false,
+  "models_sha256": "ad70c1bf930431b9cf58e339be9029da98a2b695a91b2af051553c40dec1670a"
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "FIXED_BEFORE_EXTERNAL_PREDICTIONS",
+  "draft_path": ".\\research\\WRIST_EXTERNAL_PROTOCOL_DRAFT_20261107.md",
+  "draft_sha256": "286d1ee90d24697de88e27a639f867f0de69b0fbbbe629581693385d284e88f6",
+  "source_paper_url": "https://repository.essex.ac.uk/24789/1/data-02-00001.pdf",
+  "source_pages": "file pages8-10 section4; table1 filepage4",
+  "annotation_format_source": "https://physionet.org/physiotools/wag/annot-5.htm",
+  "time_alignment": "nominal 256Hz equal-index author-segmented activity records; no origin subtraction or offset search",
+  "window_samples_256hz": 2048,
+  "hop_samples_256hz": 512,
+  "start_sample": 0,
+  "resampling": {
+    "function": "scipy.signal.resample_poly",
+    "up": 1,
+    "down": 8,
+    "window": [
+      "kaiser",
+      5.0
+    ],
+    "padtype": "constant",
+    "input_dtype": "float64 physical values",
+    "output_dtype": "float32",
+    "window_local": true
+  },
+  "input_channels": [
+    "wrist_ppg",
+    "wrist_low_noise_accelerometer_x",
+    "wrist_low_noise_accelerometer_y",
+    "wrist_low_noise_accelerometer_z"
+  ],
+  "physical_units": [
+    "mV",
+    "g",
+    "g",
+    "g"
+  ],
+  "acc_divisor": 9.80665,
+  "invalid_digital": -32768,
+  "mask_before_scaling": true,
+  "reference": "manual R peaks annotation code1/N, explicit 256Hz annotation metadata, within [start,stop), >=2 peaks, HR=60*(n-1)*256/(last_sample-first_sample)",
+  "exclusions": [
+    "invalid/nonfinite selected input",
+    "reference fewer than2 R peaks",
+    "record preparation failure"
+  ],
+  "no_HR_range_exclusion": true,
+  "preprocessing": "unchanged round2_v1_4 frontend",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 128,
+  "torch_intraop_threads": 2,
+  "BN": "eval",
+  "model_selection": "all15 existing best; no Wrist selection or training",
+  "aggregation": "within subject all eligible windows, then equal 8-subject macro per seed; pooled/record/activity separately; all missing/failed denominators explicit",
+  "scipy_version": "1.17.1",
+  "numpy_version": "2.4.2",
+  "limitations": [
+    "PPG physical mV domain differs from E4 training output; no external scaling fitted",
+    "Authors report up to1.21sec length mismatch and unquantified ECG drift; nominal mapping is not exact physical sync",
+    "Cycling PPG publisher used15Hz zero-phase lowpass",
+    "8sec full-window frontend, available at window end"
+  ]
+}
