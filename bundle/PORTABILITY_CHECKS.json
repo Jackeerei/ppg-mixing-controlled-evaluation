@@ -1,0 +1,36 @@
+{
+  "extracted_zip": true,
+  "integrity_and_fixed_prediction_reanalysis": [
+    {
+      "command": [
+        "python.exe",
+        "verify_bundle.py",
+        "--root",
+        "extracted_bundle_check"
+      ],
+      "returncode": 0,
+      "stdout": "Verified 687 files\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python.exe",
+        "reanalyse_fixed_predictions.py",
+        "--root",
+        "extracted_bundle_check",
+        "--output",
+        "reanalysis_checked"
+      ],
+      "returncode": 0,
+      "stdout": "{\"arms\": 90, \"max_difference\": 3.552713678800501e-15}\n",
+      "stderr": ""
+    }
+  ],
+  "training_or_inference_executed": false,
+  "final_test_accessed": false,
+  "final_zip_sha256": "8542f3bc87f845759835708c8db341ffd39b22a4ba6ac821a3a9c7ef42d14248",
+  "final_manifest_files": 688,
+  "final_integrity_verified": true,
+  "final_integrity_stdout": "Verified 688 files",
+  "reanalysis_inputs_unchanged_after_metadata_audit_note": true
+}

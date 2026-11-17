@@ -1,0 +1,14 @@
+{
+  "zip": "reproducibility_bundle_20261117.zip",
+  "zip_sha256": "8542f3bc87f845759835708c8db341ffd39b22a4ba6ac821a3a9c7ef42d14248",
+  "bytes": 40228839,
+  "manifest_files": 688,
+  "eligible_development_windows": 51690,
+  "all_zip_member_sha_verified": true,
+  "personal_absolute_path_scan": "passed",
+  "secret_pattern_scan": "passed",
+  "raw_or_trained_checkpoints_included": false,
+  "small_fixed_initial_backbones_included": true,
+  "end_to_end_retraining_verified": false,
+  "source_audit_note_included": true
+}
