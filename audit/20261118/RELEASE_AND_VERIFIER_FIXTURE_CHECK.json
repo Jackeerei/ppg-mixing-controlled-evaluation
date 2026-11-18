@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "zip_sha256": "9f5940e0b2e58a8affeb12b2d08e417ad6192d9f2939ac8d1f5e0f209c8cd538",
+  "checksum_manifest_sha256": "85a5268226919e2fb8dc70eb08da5ac51502cda05e6f3ed201fbe0f00b58bbaf",
+  "zip_members": [
+    "README.md",
+    "LOCKED_ARCHIVE_CHECKSUMS.json",
+    "verify_locked_archives.py",
+    "build_locked_checksums.py",
+    "test_metadata_verifier.py",
+    "CHECKS.json",
+    "DETERMINISM_CHECK.json",
+    "SHA256SUMS.txt"
+  ],
+  "zip_crc_and_member_hashes": "passed",
+  "synthetic_only_verifier_functions_executed": true,
+  "full_archive_verifier_executed_by_review": false,
+  "tests": {
+    "duplicate": "rejected",
+    "bad_eligibility": "rejected",
+    "eligible_failed": "rejected",
+    "order_and_equivalent_boolean_normalization": "invariant",
+    "path_escape": "rejected"
+  },
+  "scope": "No real predictions, no model or outcome computation; synthetic fixture written only review/."
+}

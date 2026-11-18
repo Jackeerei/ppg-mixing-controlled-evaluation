@@ -1,11 +1,131 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "code_analysis_snapshot": "b598d26f2b60b0588810d8fdbee488401e40d49e",
   "files": [
     {
       "path": "README.md",
-      "bytes": 3777,
-      "sha256": "50344aa46cfd1b6a3e922b42652bac9cc428a601716db91990dc49595a62e5e7"
+      "bytes": 4373,
+      "sha256": "299096f26d1b1c31a2b8f7c129cbd47bcfcf028ebad00281a328d4e203fd7f43"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 7936,
+      "sha256": "ae3b8db47b77ea4ba8007930c49285c0a3d933b7d033172046be904261d4d716"
+    },
+    {
+      "path": "analysis/STATISTICAL_RESULTS.json",
+      "bytes": 6148,
+      "sha256": "902d5ac65afab0f98d90da929782b7646d7103cbc0cfd82a78e78d933132da74"
+    },
+    {
+      "path": "analysis/participant_bootstrap95.csv",
+      "bytes": 1641,
+      "sha256": "348c42d249aaea967adf227a64da0954e9ec2700df5e339dbeea4d6877542794"
+    },
+    {
+      "path": "analysis/participant_means.csv",
+      "bytes": 21447,
+      "sha256": "33caaa5e4767ebf43f013ba7e08dea56e15d42931650a99403d4f3fd7321aa02"
+    },
+    {
+      "path": "analysis/participant_seed_pairs.csv",
+      "bytes": 14481,
+      "sha256": "af7d83bf109f8924964a495546ef5012603b823cfaab9a1c33e397544299c023"
+    },
+    {
+      "path": "analysis/reproduce_intervals.py",
+      "bytes": 1538,
+      "sha256": "2b24c2d8b5d8fd8a899ff745aef5694c393046ff0d7b2e37a3465e49f2816ea0"
+    },
+    {
+      "path": "analysis/requirements.txt",
+      "bytes": 14,
+      "sha256": "01afee8169917129030266a562a1941c1cadf9a74f3dc5a18ee4114eb3cb2193"
+    },
+    {
+      "path": "analysis/wrist_eight_people_G_D_seed_ranges.csv",
+      "bytes": 3180,
+      "sha256": "b577c7e04c296779f0e57dda019f9c61fb9033c19c9c796d6c2f9460e3a7ee2e"
+    },
+    {
+      "path": "audit/20261118/ARCHIVE_PACKAGE_CROSSCHECK.json",
+      "bytes": 2427,
+      "sha256": "abeaeab135068f64c1a5636b41d4e5678efe4bdafc575a445133b2525585ab59"
+    },
+    {
+      "path": "audit/20261118/CHECKS.json",
+      "bytes": 284,
+      "sha256": "4c40fdeb4368266ddd04d7840cf1ceb42245511c11fc07aadde8cc55ed42921d"
+    },
+    {
+      "path": "audit/20261118/DETERMINISM_CHECK.json",
+      "bytes": 214,
+      "sha256": "d28649388d10b3cf17938482f3c6815d616df3b0d51a8b8bffb3118822e7595c"
+    },
+    {
+      "path": "audit/20261118/HISTORICAL_AUDIT_INDEX.json",
+      "bytes": 2616,
+      "sha256": "f4fddaffa82ba326d646624a11400e3a04126b72a6a7b43c9a164366970da8ab"
+    },
+    {
+      "path": "audit/20261118/LOCKED_ARCHIVE_CHECKSUMS.json",
+      "bytes": 76340,
+      "sha256": "85a5268226919e2fb8dc70eb08da5ac51502cda05e6f3ed201fbe0f00b58bbaf"
+    },
+    {
+      "path": "audit/20261118/README.md",
+      "bytes": 3366,
+      "sha256": "fe3939177400c56baa257442f4e9050ebbdb3123ef238fd2636ee57032f48808"
+    },
+    {
+      "path": "audit/20261118/RELEASE_AND_VERIFIER_FIXTURE_CHECK.json",
+      "bytes": 944,
+      "sha256": "5d8ce57a3296366206cdbde2b7fe4517b9d52e6ff8462737aea7079c93a5cc70"
+    },
+    {
+      "path": "audit/20261118/build_locked_checksums.py",
+      "bytes": 4470,
+      "sha256": "b51ebd81073098ed53555a950174cc91c948042fbe573926d2c3999224bf1ef9"
+    },
+    {
+      "path": "audit/20261118/locked_archive_checksums_20261118.zip",
+      "bytes": 15625,
+      "sha256": "9f5940e0b2e58a8affeb12b2d08e417ad6192d9f2939ac8d1f5e0f209c8cd538"
+    },
+    {
+      "path": "audit/20261118/locked_final_D_minus_G_nine_cells.csv",
+      "bytes": 687,
+      "sha256": "8b1dbf14a63d6cb25b9de8f3e000dff351eadfc1e48737c92784dbfdd673938a"
+    },
+    {
+      "path": "audit/20261118/verify_locked_archives.py",
+      "bytes": 4899,
+      "sha256": "6f681696fe4a2803afb84b12e74c9ba56f528cbe7b25aa49a299a6af0d29c905"
+    },
+    {
+      "path": "bundle/BUNDLE_CHECKS.json",
+      "bytes": 530,
+      "sha256": "43009bf23edb36c6aae87309953069007e18a0c1889633c6e260293a90447584"
+    },
+    {
+      "path": "bundle/PORTABILITY_CHECKS.json",
+      "bytes": 1013,
+      "sha256": "96abe9e2b3f78d5ba9cf29e735f31a6fea29b36dbcb33312bc72a15dfabcdf8d"
+    },
+    {
+      "path": "bundle/README.md",
+      "bytes": 6521,
+      "sha256": "44c402578411ca11f1a46290a6ef1e1d2581e6de9850e6351906a54a74bdbb03"
+    },
+    {
+      "path": "bundle/SHA256_MANIFEST.json",
+      "bytes": 135362,
+      "sha256": "81b3517ea1ad068793af881959cb173c2e5c64ff4f9e735e5c2553fa19bfb1ea"
+    },
+    {
+      "path": "bundle/reproducibility_bundle_20261117.zip",
+      "bytes": 40228839,
+      "sha256": "8542f3bc87f845759835708c8db341ffd39b22a4ba6ac821a3a9c7ef42d14248"
     },
     {
       "path": "code/experiments/candidate_versions/autonomous_owner_v1/active_clock.py",
@@ -268,69 +388,14 @@
       "sha256": "200060459b0c63942d14c66a8f6863e2deef90e7dbd5acf7ac6cc8883645c505"
     },
     {
-      "path": "analysis/participant_bootstrap95.csv",
-      "bytes": 1641,
-      "sha256": "348c42d249aaea967adf227a64da0954e9ec2700df5e339dbeea4d6877542794"
+      "path": "supplement/20261118/supplement_revised_clean.docx",
+      "bytes": 2984377,
+      "sha256": "5f2555202abf92feedac2d01e3697c0ff4c3db8b581e4c30d9319727300e5740"
     },
     {
-      "path": "analysis/participant_means.csv",
-      "bytes": 21447,
-      "sha256": "33caaa5e4767ebf43f013ba7e08dea56e15d42931650a99403d4f3fd7321aa02"
-    },
-    {
-      "path": "analysis/participant_seed_pairs.csv",
-      "bytes": 14481,
-      "sha256": "af7d83bf109f8924964a495546ef5012603b823cfaab9a1c33e397544299c023"
-    },
-    {
-      "path": "analysis/README.md",
-      "bytes": 7936,
-      "sha256": "ae3b8db47b77ea4ba8007930c49285c0a3d933b7d033172046be904261d4d716"
-    },
-    {
-      "path": "analysis/reproduce_intervals.py",
-      "bytes": 1538,
-      "sha256": "2b24c2d8b5d8fd8a899ff745aef5694c393046ff0d7b2e37a3465e49f2816ea0"
-    },
-    {
-      "path": "analysis/requirements.txt",
-      "bytes": 14,
-      "sha256": "01afee8169917129030266a562a1941c1cadf9a74f3dc5a18ee4114eb3cb2193"
-    },
-    {
-      "path": "analysis/STATISTICAL_RESULTS.json",
-      "bytes": 6148,
-      "sha256": "902d5ac65afab0f98d90da929782b7646d7103cbc0cfd82a78e78d933132da74"
-    },
-    {
-      "path": "analysis/wrist_eight_people_G_D_seed_ranges.csv",
-      "bytes": 3180,
-      "sha256": "b577c7e04c296779f0e57dda019f9c61fb9033c19c9c796d6c2f9460e3a7ee2e"
-    },
-    {
-      "path": "bundle/BUNDLE_CHECKS.json",
-      "bytes": 530,
-      "sha256": "43009bf23edb36c6aae87309953069007e18a0c1889633c6e260293a90447584"
-    },
-    {
-      "path": "bundle/PORTABILITY_CHECKS.json",
-      "bytes": 1013,
-      "sha256": "96abe9e2b3f78d5ba9cf29e735f31a6fea29b36dbcb33312bc72a15dfabcdf8d"
-    },
-    {
-      "path": "bundle/README.md",
-      "bytes": 6521,
-      "sha256": "44c402578411ca11f1a46290a6ef1e1d2581e6de9850e6351906a54a74bdbb03"
-    },
-    {
-      "path": "bundle/SHA256_MANIFEST.json",
-      "bytes": 135362,
-      "sha256": "81b3517ea1ad068793af881959cb173c2e5c64ff4f9e735e5c2553fa19bfb1ea"
-    },
-    {
-      "path": "bundle/reproducibility_bundle_20261117.zip",
-      "bytes": 40228839,
-      "sha256": "8542f3bc87f845759835708c8db341ffd39b22a4ba6ac821a3a9c7ef42d14248"
+      "path": "supplement/20261118/supplement_revised_clean.pdf",
+      "bytes": 2883784,
+      "sha256": "7874a3212f140388a0a7664054dac24be948ebdb0ef31b50caac4972639dcb74"
     },
     {
       "path": "supplement/supplement_revised_clean.docx",
@@ -343,5 +408,6 @@
       "sha256": "10001932400f05543dd5e467437dfcc183fee3cb825fbbbf1adaecf559ffe782"
     }
   ],
-  "scope": "Public code, configuration, development fixed predictions, participant summaries/reanalysis, and English supplement. Raw signals, large trained/resume checkpoints and final/external full prediction arrays are omitted. No end-to-end retraining validation claim."
+  "scope": "Public code, configuration, development fixed predictions, participant summaries/reanalysis, and English supplement. Raw signals, large trained/resume checkpoints and final/external full prediction arrays are omitted. No end-to-end retraining validation claim. The revision adds locked/external checksum metadata and a clean English supplement.",
+  "audit_snapshot": "debfdb80a35a783d5c5409b29a421a3996fa5004"
 }

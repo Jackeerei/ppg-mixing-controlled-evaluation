@@ -37,9 +37,13 @@ Each participant's three paired seed effects is first averaged, then people are 
 
 The 90 histories report actual early stopping at 27–173 epochs. Curves and stopping summaries do not exclude undertraining or objective/optimizer interaction.
 
+## Locked and external archive checks
+
+The [18 November audit materials](audit/20261118/) give deterministic checksums and a standard-library verifier for candidate, eligible, and successful saved-window coverage. The directory also records the historical review procedure and all nine locked D−G participant/seed differences. Checking original bytes requires the retained archive; the release does not provide full held-out/external predictions or demonstrate end-to-end retraining. [Fixed audit snapshot](https://github.com/Jackeerei/ppg-mixing-controlled-evaluation/tree/debfdb80a35a783d5c5409b29a421a3996fa5004/audit/20261118).
+
 ## Supplement
 
-The 19-page English supplement is available as [PDF](supplement/supplement_revised_clean.pdf) and [editable Word](supplement/supplement_revised_clean.docx). The manuscript availability statements identify this repository and the fixed code/analysis snapshot b598d26f2b60b0588810d8fdbee488401e40d49e. It contains detailed definitions, participant tables and all stopping diagnostics. The conference's acceptance/publication is not implied.
+The English supplement revised on 18 November is available as [PDF](supplement/20261118/supplement_revised_clean.pdf) and [editable Word](supplement/20261118/supplement_revised_clean.docx). It includes the archived-run audit procedure and limitations. The [17 November supplement](supplement/supplement_revised_clean.pdf) remains accessible. The fixed implementation and development-analysis snapshot is b598d26f2b60b0588810d8fdbee488401e40d49e.
 
 ## Data and licenses
 
