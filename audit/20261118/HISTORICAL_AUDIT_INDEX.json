@@ -1,0 +1,43 @@
+{
+  "audits": [
+    {
+      "study": "final",
+      "historical_program": "review/check_final_results_20261107.py",
+      "program_sha256": "91795750800c2d9eef79477050c2d1f7e84a2cbb767f47a9e130e1fd76c53635",
+      "syntax_valid": true,
+      "contains_model_replay": true,
+      "run_this_revision": false,
+      "retained_evidence": "review/FINAL_RESULTS_EVIDENCE_20261107.json",
+      "evidence_sha256": "b6f09c7207b4a0d93052113bd1dcb700ecc356815484eae5bde93ca738fde213",
+      "retained_log": "review/FINAL_RESULTS_CHECK_20261107.log",
+      "log_status": "passed_final_result_review",
+      "retained_report": "review/FINAL_RESULTS_REVIEW_20261107.md",
+      "original_manifest": "experiments\\results\\final_evaluation_v1_20261107T132631Z\\MANIFEST.json",
+      "original_manifest_sha256": "27a6de04fa2be9ae4db07876264e56222bdbc6c87cc6a0f0eabe4465baf7ddba",
+      "historical_rows_checked": 273147,
+      "historical_eligible_predictions": 273147,
+      "historical_spot_windows": 24,
+      "note": "The historical checks combined full saved-output recomputation with bounded CPU spot replay. Retained evidence reports those actual checks, not a new evaluation this revision."
+    },
+    {
+      "study": "external",
+      "historical_program": "review/check_wrist_results_20261107.py",
+      "program_sha256": "86101cf6a9521940756d12f1b438305642a49f54a768375973676fcfa70a5356",
+      "syntax_valid": true,
+      "contains_model_replay": true,
+      "run_this_revision": false,
+      "retained_evidence": "review/WRIST_RESULTS_EVIDENCE_20261107.json",
+      "evidence_sha256": "e07a69b6943f762705b7e083842e92ef6a3396ba464a9b846f140278e951ec39",
+      "retained_log": "review/WRIST_RESULTS_CHECK_20261107.log",
+      "log_status": "passed_external_results_check",
+      "retained_report": "review/WRIST_RESULTS_REVIEW_20261107.md",
+      "original_manifest": "experiments\\results\\wrist_external_v1_20261107T074907Z\\MANIFEST.json",
+      "original_manifest_sha256": "e3b9a81fb3ec44304dd93c4bb941b7b7df65eeed68d934fa1e72957e3df136ef",
+      "historical_rows_checked": 49980,
+      "historical_eligible_predictions": 49800,
+      "historical_spot_windows": 40,
+      "note": "The historical checks combined full saved-output recomputation with bounded CPU spot replay. Retained evidence reports those actual checks, not a new evaluation this revision."
+    }
+  ],
+  "scope": "Hash/read/static syntax verification only; no imports or execution of old audit scripts. Checksums bind bytes, not synchronization, raw-label correctness or scientific validity by themselves."
+}

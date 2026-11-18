@@ -1,0 +1,5 @@
+{
+  "two_independent_process_exports_byte_identical": true,
+  "manifest_sha256": "85a5268226919e2fb8dc70eb08da5ac51502cda05e6f3ed201fbe0f00b58bbaf",
+  "duplicate_availability_failure_negative_tests": "passed"
+}

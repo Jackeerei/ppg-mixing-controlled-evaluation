@@ -1,0 +1,7 @@
+{
+  "scopes": 2,
+  "artifacts_verified": 86,
+  "arms_verified": 36,
+  "scope": "archived bytes and identity/coverage only; no inference, signal decoding or outcome metric recalculation",
+  "manifest_sha256": "85a5268226919e2fb8dc70eb08da5ac51502cda05e6f3ed201fbe0f00b58bbaf"
+}

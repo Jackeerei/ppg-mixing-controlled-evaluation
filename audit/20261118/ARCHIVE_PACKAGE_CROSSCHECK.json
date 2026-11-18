@@ -1,0 +1,48 @@
+{
+  "status": "passed_provenance_and_scope_crosscheck",
+  "checked_utc": "2026-11-18T14:09:05.224290+00:00",
+  "new_manifest_sha256": "85a5268226919e2fb8dc70eb08da5ac51502cda05e6f3ed201fbe0f00b58bbaf",
+  "verifier_sha256": "6f681696fe4a2803afb84b12e74c9ba56f528cbe7b25aa49a299a6af0d29c905",
+  "builder_sha256": "b51ebd81073098ed53555a950174cc91c948042fbe573926d2c3999224bf1ef9",
+  "checks_sha256": "4c40fdeb4368266ddd04d7840cf1ceb42245511c11fc07aadde8cc55ed42921d",
+  "verifier_imports": [
+    "pathlib",
+    "argparse",
+    "collections",
+    "csv",
+    "hashlib",
+    "json"
+  ],
+  "retained_small_files_hash_checked": 50,
+  "prediction_files_anchored_to_old_independent_sha": 36,
+  "scopes": [
+    {
+      "scope": "locked_final",
+      "expected_arms": 21,
+      "candidate_rows_recanonicalized": 13007,
+      "eligible_rows": 13007,
+      "candidate_identity_sha256": "83efba95c2a97b948da430e82f91c5a9a5778d2c398072f8166e5af52ad87887",
+      "eligible_identity_sha256": "83efba95c2a97b948da430e82f91c5a9a5778d2c398072f8166e5af52ad87887",
+      "prediction_byte_sha_source": "Existing original independent audit evidence, not rehashed/rescored here"
+    },
+    {
+      "scope": "external_wrist",
+      "expected_arms": 15,
+      "candidate_rows_recanonicalized": 3332,
+      "eligible_rows": 3320,
+      "candidate_identity_sha256": "0fc79995cd072d26cc5bf8dc3c8c94055e38998f6af4a467b5bc3eb04d5891a9",
+      "eligible_identity_sha256": "4716c1ca1b1ec772f772511e139f8b79df5c49b5b2a4ed8ab90d7c25a6f1b3b9",
+      "prediction_byte_sha_source": "Existing original independent audit evidence, not rehashed/rescored here"
+    }
+  ],
+  "new_program_executed": false,
+  "old_programs_executed": false,
+  "new_prediction_or_metric_recalculation": false,
+  "scope_notes": [
+    "New production verifier supports archived-byte/identity/availability/coverage checks; it does not calculate model outcomes or establish synchronization/reference validity.",
+    "This independent review recanonicalized2candidate CSVs and anchored36prediction-byte hashes to old audit receipts; no prediction CSVs or raw signals were parsed.",
+    "Expected21final+15external arms explicitly verified here, not just arbitrary manifest length.",
+    "Original scripts/evidence remain separate historical inference-capable audit provenance.",
+    "No public upload or public file-access claim established."
+  ]
+}
