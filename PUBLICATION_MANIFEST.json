@@ -1,11 +1,21 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "code_analysis_snapshot": "b598d26f2b60b0588810d8fdbee488401e40d49e",
   "files": [
     {
       "path": "README.md",
-      "bytes": 4373,
-      "sha256": "299096f26d1b1c31a2b8f7c129cbd47bcfcf028ebad00281a328d4e203fd7f43"
+      "bytes": 5407,
+      "sha256": "2a323349dc209cec7ec60076d4d59e65a80264acc8a4e7aed893aea399596e9f"
+    },
+    {
+      "path": "analysis/20261119/existing_outer_D_minus_G_summary.csv",
+      "bytes": 471,
+      "sha256": "52967517682f60219c372093f4c2dbe2915d4e3060af094a057e63f7133abec6"
+    },
+    {
+      "path": "analysis/20261119/same_epoch_inner_within_fold_summary.csv",
+      "bytes": 3563,
+      "sha256": "7aa8f2e36b8f73c24d6d11eb29548496dc9c85489c311ff200d60c2ef00dbaff"
     },
     {
       "path": "analysis/README.md",
@@ -16,6 +26,11 @@
       "path": "analysis/STATISTICAL_RESULTS.json",
       "bytes": 6148,
       "sha256": "902d5ac65afab0f98d90da929782b7646d7103cbc0cfd82a78e78d933132da74"
+    },
+    {
+      "path": "analysis/check_common_epochs.py",
+      "bytes": 2671,
+      "sha256": "86d3cf0af71b0dba2644900866499250290e2ad4375870ade64a4de819614997"
     },
     {
       "path": "analysis/participant_bootstrap95.csv",
@@ -36,6 +51,11 @@
       "path": "analysis/reproduce_intervals.py",
       "bytes": 1538,
       "sha256": "2b24c2d8b5d8fd8a899ff745aef5694c393046ff0d7b2e37a3465e49f2816ea0"
+    },
+    {
+      "path": "analysis/reproduce_locked_gate_table.py",
+      "bytes": 2150,
+      "sha256": "89c514dbcc20fedda5cfef1725097d3626e4030a74b854a36546933de2f33571"
     },
     {
       "path": "analysis/requirements.txt",
@@ -398,6 +418,16 @@
       "sha256": "318a82bb82d3be73f148deb27bc86ff1e2745354e3fd44c46e6938139c00160a"
     },
     {
+      "path": "supplement/20261119/supplement_revised_clean.docx",
+      "bytes": 2982452,
+      "sha256": "f302115cbab3cebed4748a9e6392ec08c5ce06609d7250ecd5a2902c3cbd7e1a"
+    },
+    {
+      "path": "supplement/20261119/supplement_revised_clean.pdf",
+      "bytes": 2876495,
+      "sha256": "de32da500b50f14220025580f264e599df02573fbf0050ac1aef10950b12d6f1"
+    },
+    {
       "path": "supplement/supplement_revised_clean.docx",
       "bytes": 2982126,
       "sha256": "3f99b7e281ddfa51025864849a32198f5df35899877d4b444fb2423b9b8c8fc4"
@@ -409,5 +439,5 @@
     }
   ],
   "scope": "Public code, configuration, development fixed predictions, participant summaries/reanalysis, and English supplement. Raw signals, large trained/resume checkpoints and final/external full prediction arrays are omitted. No end-to-end retraining validation claim. The revision adds locked/external checksum metadata and a clean English supplement.",
-  "audit_snapshot": "debfdb80a35a783d5c5409b29a421a3996fa5004"
+  "audit_snapshot": "640089cd7b4915b711b0eaab245969955dfc2d58"
 }

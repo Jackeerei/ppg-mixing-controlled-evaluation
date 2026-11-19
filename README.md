@@ -1,8 +1,16 @@
-# PPG mixing under matched controls
+# Controlled comparison of raw and filtered PPG inputs
 
-Research code, fixed development predictions, participant-level analyses and supplementary material for **Raw–Filtered PPG Mixing Under Matched Controls: Held-Out and Post-hoc Subject-Wise Evaluation**.
+This repository accompanies a wrist heart-rate estimation study comparing an input-dependent mixing weight (D) with a learned global weight (G) and three input controls.
 
-The contribution is a controlled evaluation of input construction with a shared regressor architecture. The results do not establish stable adaptive-gate superiority or an isolated intrinsic loss effect. Three optimization seeds are repeated model fits, not extra participants.
+## Recalculate the main gate comparison
+
+From a repository checkout, run `python analysis/reproduce_locked_gate_table.py`. The script uses the public participant-by-seed G and D errors. It reconstructs the nine paired differences, their participant means and the equal-person result (+0.0594 bpm). The three person means range from −0.0355 to +0.1794 bpm. The additional t interval assumes independent normal person effects. This calculation starts from archived participant summaries. Window-level scoring for these three people requires the original predictions.
+
+The [development comparison](analysis/20261119/existing_outer_D_minus_G_summary.csv) uses predictions from the selected checkpoint. The [common-epoch diagnostic](analysis/20261119/same_epoch_inner_within_fold_summary.csv) compares inner-validation errors at the same epoch. Epoch 27 is the last epoch observed for every pair. These two analyses use different evaluation data.
+
+Run `python analysis/check_common_epochs.py PATH_TO_EXTRACTED_BUNDLE` to check the common-epoch table against the 72 published D/G histories.
+
+The [current English supplement (PDF)](supplement/20261119/supplement_revised_clean.pdf) and [editable Word version](supplement/20261119/supplement_revised_clean.docx) describe the experiments and the limits of each check.
 
 ## Download and reproduce
 
@@ -39,9 +47,9 @@ The 90 histories report actual early stopping at 27–173 epochs. Curves and sto
 
 ## Locked and external archive checks
 
-The [18 November audit materials](audit/20261118/) give deterministic checksums and a standard-library verifier for candidate, eligible, and successful saved-window coverage. The directory also records the historical review procedure and all nine locked D−G participant/seed differences. Checking original bytes requires the retained archive; the release does not provide full held-out/external predictions or demonstrate end-to-end retraining. [Fixed audit snapshot](https://github.com/Jackeerei/ppg-mixing-controlled-evaluation/tree/debfdb80a35a783d5c5409b29a421a3996fa5004/audit/20261118).
+The [18 November audit materials](audit/20261118/) give deterministic checksums and a standard-library verifier for candidate, eligible, and successful saved-window coverage. The directory also records the historical review procedure and all nine locked D−G participant/seed differences. Checking original bytes requires the retained archive; the release does not provide full held-out/external predictions or demonstrate end-to-end retraining. [Fixed audit snapshot](https://github.com/Jackeerei/ppg-mixing-controlled-evaluation/tree/640089cd7b4915b711b0eaab245969955dfc2d58/audit/20261118).
 
-## Supplement
+## Earlier supplement versions
 
 The English supplement revised on 18 November is available as [PDF](supplement/20261118/supplement_revised_clean.pdf) and [editable Word](supplement/20261118/supplement_revised_clean.docx). It includes the archived-run audit procedure and limitations. The [17 November supplement](supplement/supplement_revised_clean.pdf) remains accessible. The fixed implementation and development-analysis snapshot is b598d26f2b60b0588810d8fdbee488401e40d49e.
 
